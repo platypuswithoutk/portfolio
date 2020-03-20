@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.home {
+    background-image: url(../notebook-2386034_1920.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn {
+    border: 2px solid rgb(85, 17, 17);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    cursor: pointer; 
+    transition: all 0.4s;
+    margin-bottom: 51px;
+}
+
+.btn:hover {
+    background-color:rgb(85, 17, 17);
+    color: #fff;
+}
+
+.home-text {
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    color:  rgb(85, 17, 17);
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+
+
+h2 {
+    font-size: 70px;
+}
+
+span {
+    color: rgb(85, 17, 17);
+}
+
+hr {
+    border: 1px solid gray;
+    width: 35%;
+}
+
+.main-container {
+   padding-top: 70px;
+   padding-bottom: 70px;
+    
+}
+
+.main-nav {
+    background-color:rgb(85, 17, 17);
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer; 
+    border-radius: 10%;
+}
+
+.main-nav ul li a:hover {
+    background-color:  #fff;
+    color:black;
+}
+
+.section-about {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    flex-basis: 49%;
+    display: flex;
+}
+
+.about {
+    flex-basis: 49%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px 80px 40px 0;
+}
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(85, 17, 17);
+  }
+
+  z {
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 0 2px rgb(85, 17, 17);
+    
+ }
+  
+ .computer {
+     display: inline-block;
+     margin-bottom:30px;
+     position: relative;
+     top: 190px; right: 115px;
+ }
+
+ .travel {
+    display: inline-block;
+    position: relative;
+    top: 288px; right: 280px;
+ }
+
+ .coffee {
+    display: inline-block;
+     position: relative;
+     top: 243px; right: 192px;
+ }
+
+.skills {
+    background-color: rgb(240, 240, 240);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+
+.can {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.learning {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5, .learn1, .learn2, .learn3 {
+    padding: 50px;
+}
+
+
+i {    
+    background-color: white; 
+    border-radius: 50%;
+    padding: 20px;
+    color: rgb(114, 83, 83);
+    text-align: center;
+    font-size: 3em;
+    box-shadow: 0 0 0 3px rgb(85, 17, 17);
+ }
+
+ p {
+    font-size: 20px;
+    color: rgb(85, 17, 17);
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(85, 17, 17);
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    color:rgb(44, 40, 40);
+}
+
+.star .fas{
+    color: darkgoldenrod;
+}
