@@ -56,11 +56,6 @@ span {
     color: rgb(85, 17, 17);
 }
 
-hr {
-    border: 1px solid gray;
-    width: 35%;
-}
-
 .main-container {
    padding-top: 70px;
    padding-bottom: 70px;
@@ -119,17 +114,15 @@ hr {
     padding: 40px 80px 40px 0;
 }
 
-img {
+.photo img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
     padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgb(85, 17, 17);
   }
 
-  z {
+  /*z { 
     border-radius: 50%;
     padding: 10px;
     font-size: 2em;
@@ -143,7 +136,7 @@ img {
      display: inline-block;
      margin-bottom:30px;
      position: relative;
-     top: 190px; right: 115px;
+     top: 192px; right: 115px;
  }
 
  .travel {
@@ -156,12 +149,23 @@ img {
     display: inline-block;
      position: relative;
      top: 243px; right: 192px;
+ } */
+
+ .document {
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top:80px;
+ }
+
+ .cv i, .git i {
+     display:contents;
+     font-size:50px;
  }
 
 .skills {
     background-color: rgb(240, 240, 240);
     padding-top: 50px;
-    padding-bottom: 70px;
     display: flex;
     text-align: center;
     justify-content: center
@@ -183,6 +187,27 @@ img {
 
 .skill1, .skill2, .skill3, .skill4, .skill5, .learn1, .learn2, .learn3 {
     padding: 50px;
+    
+}
+
+.skill1 i {
+    color: red;
+    background-color: white; 
+    border-radius: 50%;
+    padding: 20px;
+    color: rgb(114, 83, 83);
+    text-align: center;
+    font-size: 3em;
+    box-shadow: 0 0 0 3px rgb(85, 17, 17);
+}
+
+
+.stars .star i {
+    border-radius: 0%;
+    box-shadow: none;
+    font-size: 20px;
+    padding:0px;
+    background-color: rgb(240, 240, 240)
 }
 
 
@@ -198,7 +223,7 @@ i {
 
  p {
     font-size: 20px;
-    color: rgb(85, 17, 17);
+    color: black;
     padding-top: 10px;
 }
 
@@ -208,7 +233,7 @@ h3 {
     color:rgb(85, 17, 17);
 }
 
-.star {
+.stars {
     display: flex;
     justify-content: center;
     color:rgb(44, 40, 40);
@@ -216,4 +241,156 @@ h3 {
 
 .star .fas{
     color: darkgoldenrod;
+}
+
+.portfolio {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+}
+
+.project-item {
+    flex-basis: 40%;
+    height: 300px;
+    position: relative;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.project-item:hover h6 {
+    opacity: 1;
+ }
+
+h6 {
+    position: absolute;
+    font-size: 30px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 200px;
+    background-color:rgba(85, 17, 17, 0.5);
+    opacity: 0;
+    transition: all 0.4s;
+    color: white;
+}
+
+.github {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.github:hover {
+    opacity: 1;
+}
+
+.github i {
+    margin-top: 25%;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.github i:hover {
+    font-size:35px;
+    color: rgb(136, 101, 101);
+}
+
+.technology {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    margin: 0;
+}
+
+.technology li {
+    min-width: 40px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    font-size: 9px;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+
+#contact form {
+    width: 40%;
+    margin: 10px auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.contact-text {
+    padding-bottom: 30px;
+    color: rgb(85, 17, 17);
+    text-align: center; 
+}
+
+#contact form textarea {
+    flex-basis: 100%;
+    background-color: white;
+    border: 5px solid rgb(85, 17, 17);
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+#contact form input {
+    flex-basis: 49%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 5px solid rgb(85, 17, 17);
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+#contact .send {
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 25px 25px;
+    cursor: pointer; 
+    margin-left: auto;
+    margin-right: auto;    
+    border: 5px solid rgb(85, 17, 17);
+}
+
+#contact .send:hover {
+    background-color: rgb(218, 216, 216);
+}
+
+footer {
+    background-color: rgb(85, 17, 17);
+    height: 50px;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
 }
