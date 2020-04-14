@@ -8,6 +8,7 @@
          font-size: 30px;
      }
  }
+ 
 
  @media all and (max-width: 982px) {
     .photo{
@@ -18,7 +19,7 @@
         display: none;
     }
      .about {
-        flex-basis:100%;
+        flex-basis: 100%;
         padding: 0px 30px 0px 30px !important;
      }
      .card {
@@ -57,6 +58,10 @@
         padding: 0px 40px 0px 70px !important;
         margin-top: 50px !important;
     }
+
+    .cv, .git {
+        margin: 10px !important;
+    }
     .project-item {
         flex-basis:90%;
     }
@@ -81,11 +86,13 @@
     
 }
 
+
  @media all and (max-width: 480px) {
 
     .main-container {
         padding-top: 10px !important;
     }
+    
 
     h2 {
         font-size: 60px;
@@ -106,8 +113,8 @@
     .photo img {
         width: 300px;
         height:300px;
-
     }
+
     .about {
         flex-basis:100%;
         padding: 10px !important;
@@ -120,9 +127,17 @@
         flex-basis: 50%;    
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .learn1, .learn2, .learn3 {
+     .learn1, .learn2, .learn3 {
         padding: 30px !important;
         
+    }
+
+    .document {
+        padding: 0px 70px 0px 70px !important;
+    }
+
+    .skill1, .skill2, .skill3, .skill4, .skill5 {
+        padding: 10px !important;
     }
 
     #contact form {
@@ -135,7 +150,16 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+    }
+  }
+
+@media all and (max-width: 340px) {
 
     h2 {
         font-size: 50px;
@@ -164,6 +188,9 @@
         font-size: 40px;
     }
 
+    .photo img {
+        margin:10px;
+    }
     .cv {
         padding-right:20px;
     }
@@ -174,4 +201,9 @@
     .learning {
         flex-basis: 50%;
     }
+
+    .cards {
+        margin: 0px !important;
+    }
+
 }
