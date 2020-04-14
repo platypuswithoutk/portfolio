@@ -8,8 +8,8 @@ body {
 }
 
 .home {
-    background-image: url(../notebook-2386034_1920.jpg);
-    height: 85vh;
+    background-image: url(../img/Fotoram.io.jpg);
+    height: 75vh;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -115,42 +115,12 @@ span {
 }
 
 .photo img {
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    padding: 20px;
+    padding: 40px;
+    display: inline-block;
   }
-
-  /*z { 
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 2em;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 0 0 2px rgb(85, 17, 17);
-    
- }
   
- .computer {
-     display: inline-block;
-     margin-bottom:30px;
-     position: relative;
-     top: 192px; right: 115px;
- }
-
- .travel {
-    display: inline-block;
-    position: relative;
-    top: 288px; right: 280px;
- }
-
- .coffee {
-    display: inline-block;
-     position: relative;
-     top: 243px; right: 192px;
- } */
-
  .document {
      display:flex;
      flex-wrap: wrap;
@@ -166,7 +136,6 @@ span {
 .skills {
     background-color: rgb(240, 240, 240);
     padding-top: 50px;
-    display: flex;
     text-align: center;
     justify-content: center
 }
@@ -186,12 +155,10 @@ span {
 }
 
 .skill1, .skill2, .skill3, .skill4, .skill5, .learn1, .learn2, .learn3 {
-    padding: 50px;
-    
+    padding: 50px;   
 }
 
-.skill1 i {
-    color: red;
+.skills i{
     background-color: white; 
     border-radius: 50%;
     padding: 20px;
@@ -209,17 +176,6 @@ span {
     padding:0px;
     background-color: rgb(240, 240, 240)
 }
-
-
-i {    
-    background-color: white; 
-    border-radius: 50%;
-    padding: 20px;
-    color: rgb(114, 83, 83);
-    text-align: center;
-    font-size: 3em;
-    box-shadow: 0 0 0 3px rgb(85, 17, 17);
- }
 
  p {
     font-size: 20px;
@@ -243,97 +199,62 @@ h3 {
     color: darkgoldenrod;
 }
 
-.portfolio {
-    background-color: white;
-    padding-bottom: 80px;
-}
-
-.icons {
+.cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 40px;
     justify-content: center;
+    margin:40px;
+  }
+  
+    .card {
+      flex-basis: 45%;
+      height: auto;
+      position: relative;
+      text-align: center;
+      margin: 20px;
+      border: 2px solid rgb(85, 17, 17);
+  
+  }
+  
+  .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border: 1.5px solid brown;
+  }
+  
+  .card:hover {
+    box-shadow: 10px 10px 5px rgb(85, 17, 17);
+  }
+  
+  .github i {    
+      background-color: white; 
+      border-radius: 50%;
+      padding: 5px;
+      color: rgb(114, 83, 83);
+      text-align: center;
+      font-size: 2em;
+      box-shadow: 0 0 0 3px rgb(85, 17, 17);
+      margin: 10px;
+   }
+  
+a {
+    margin: 20px;
+    color: black;
 }
-
-.project-item {
-    flex-basis: 40%;
-    height: 300px;
-    position: relative;
+  
+a:hover {
+    text-decoration: none;
+    color: black;
 }
-
-.project-item img {
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    object-fit: cover;
-    padding: 20px;
+  
+.container h4 {
+    text-shadow: 2px 2px rgb(85, 17, 17);
+    padding-bottom: 0px;
 }
-
-.project-item:hover h6 {
-    opacity: 1;
- }
-
-h6 {
-    position: absolute;
-    font-size: 30px;
-    left: 0;
-    top: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    line-height: 200px;
-    background-color:rgba(85, 17, 17, 0.5);
-    opacity: 0;
-    transition: all 0.4s;
-    color: white;
-}
-
-.github {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-    left: 0;
-    top: 0;
-    margin: 0;
-}
-
-.github:hover {
-    opacity: 1;
-}
-
-.github i {
-    margin-top: 25%;
-    font-size: 30px;
-    padding: 5px;
-}
-
-.github i:hover {
-    font-size:35px;
-    color: rgb(136, 101, 101);
-}
-
-.technology {
-    position: absolute;
-    left: 10%;
-    top: 80%;
-    margin: 0;
-}
-
-.technology li {
-    min-width: 40px;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 18px;
-    font-size: 9px;
-    border: 1px solid white;
-    border-radius: 9px;
-    padding: 0 5px;
-    margin-right: 10px;
+  
+#contact {
+    background-color: rgb(240, 240, 240)
 }
 
 #contact form {
@@ -384,13 +305,18 @@ h6 {
     background-color: rgb(218, 216, 216);
 }
 
+.phone i, .mail i {
+    padding-top: 20px;
+}
+
 footer {
     background-color: rgb(85, 17, 17);
     height: 50px;
+    text-align: center;
 }
 
 footer p {
     font-size: 20px;
     color: white;
-    margin-top: 10px;
+    margin: -10px 0px -10px 0px;
 }
