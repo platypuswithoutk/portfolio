@@ -186,6 +186,7 @@ span {
 h3 {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
     color:rgb(85, 17, 17);
 }
 
@@ -267,7 +268,6 @@ a:hover {
 }
 
 .contact-text {
-    padding-bottom: 30px;
     color: rgb(85, 17, 17);
     text-align: center; 
 }
@@ -305,8 +305,18 @@ a:hover {
     background-color: rgb(218, 216, 216);
 }
 
+.phone, .mail {
+    display:flex;
+    justify-content: center;
+}
+
 .phone i, .mail i {
-    padding-top: 20px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.contact-icon {
+    margin-top: 10px;
 }
 
 footer {
