@@ -246,19 +246,16 @@ h3 {
   
     .card {
       flex-basis: 45%;
-      height: auto;
       position: relative;
       text-align: center;
       margin: 20px;
       border: 2px solid rgb(85, 17, 17);
-  
   }
   
   .card img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border: 1.5px solid brown;
+        width:100%;
+        height: auto;
+        border: 1.5px solid brown;
   }
   
   .card:hover {

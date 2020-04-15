@@ -4,8 +4,10 @@
         height: auto;
      }
      
-     .github i {
-         font-size: 30px;
+    
+
+     .can {
+         margin: 0px !important;
      }
  }
  
@@ -73,6 +75,10 @@
     .can {
         margin: 0px !important;
         flex-basis: 30%;
+    }
+
+    .skill1, .skill2, .skill3, .skill4, .skill5 {
+        padding: 10px !important;
     }
 
     #contact form {
@@ -190,6 +196,7 @@
 
     .photo img {
         margin:10px;
+        height: auto;
     }
     .cv {
         padding-right:20px;
@@ -206,4 +213,15 @@
         margin: 0px !important;
     }
 
+    .container p {
+        font-size: 15px;
+    }
+
+    .container h4 {
+        font-size: 25px;
+    }
+
+    .github i {
+        font-size: 1em;
+    }
 }
