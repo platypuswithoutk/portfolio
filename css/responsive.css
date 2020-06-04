@@ -1,29 +1,14 @@
-@media all and (min-width: 1024px) {
-    .photo{
-        flex-basis: 49%;
-        height: auto;
-     }
-     
-    
-
-     .can {
-         margin: 0px !important;
-     }
- }
- 
 
  @media all and (max-width: 982px) {
-    .photo{
+    figure {
         flex-basis: 100%;
      }
 
-     .btn {
-        display: none;
-    }
      .about {
         flex-basis: 100%;
         padding: 0px 30px 0px 30px !important;
      }
+
      .card {
         flex-basis: 70%;   
     }
@@ -38,14 +23,6 @@
 
   
 @media all and (max-width: 768px) {
-
-    .photo {
-        flex-basis: 100%;
-    }
-
-    .btn {
-        display: none;
-    }
 
     .about {
         flex-basis:100%;
@@ -64,8 +41,13 @@
     .cv, .git {
         margin: 10px !important;
     }
+    
     .project-item {
         flex-basis:90%;
+    }
+
+    .card {
+        flex-basis: 80%;
     }
     
     .icons {
@@ -92,15 +74,52 @@
     
 }
 
+@media all and (max-width: 638px) {
 
- @media all and (max-width: 480px) {
+
+    .learn1, .learn2, .learn3 {
+        padding: 15px;   
+      }
+
+    .container h4 {
+        font-size: 30px;
+    }
+
+    .github a {
+        margin: 0;
+    }
+
+    .card {
+        flex-basis: 90%;
+    }
+}
+
+@media all and (max-width: 554px) {
+
+    #navbar ul li {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .can {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill1, .skill2, .skill3, .skill4, .skill5 {
+        padding: 30px !important;
+    }
+}
+
+
+ @media all and (max-width: 482px) {
 
     .main-container {
         padding-top: 10px !important;
     }
     
-
-    h2 {
+    h1 {
         font-size: 60px;
         padding-top: 80px;
     }
@@ -108,29 +127,35 @@
         font-size: 30px;
     }
 
-    .btn {
-        display: none;
-    }
-    
-    .photo {
-        width:100%;
-    }
-
-    .photo img {
-        width: 300px;
-        height:300px;
+    figure img {
+        width: 350px;
+        height:350px;
     }
 
     .about {
-        flex-basis:100%;
         padding: 10px !important;
     }
+
+    .about p {
+        font-size: 20px;
+    }
+
+    .cv i, .git i {
+        font-size: 35px;
+    }
+
+    .cards {
+        margin: 20px;
+    }
+
     .card{
         flex-basis:100%;
     }
+
     .can {
         margin: 0px 10px 0px 10px !important;
-        flex-basis: 50%;    
+        display: flex;
+        justify-content: center    
     }
 
      .learn1, .learn2, .learn3 {
@@ -138,36 +163,32 @@
         
     }
 
-    .document {
-        padding: 0px 70px 0px 70px !important;
-    }
-
     .skill1, .skill2, .skill3, .skill4, .skill5 {
-        padding: 10px !important;
+        padding: 30px !important;
     }
 
     #contact form {
         width: 70%;
         padding-bottom: 30px !important;
     }
+
     #contact .send  {
         flex-basis: 40%;
         padding: 10px !important;
     }
 }
 
-@media all and (max-width: 400px) {
-    nav ul {
-        flex-direction: column;
+@media all and (max-width: 474px) {
+    #navbar ul li {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    nav ul li {
-        text-align: center;
-    }
-  }
+}
 
 @media all and (max-width: 340px) {
 
-    h2 {
+    h1 {
         font-size: 50px;
         padding-top: 20px;
     }
@@ -181,32 +202,25 @@
     }
 
     .skill1, .skill2, .skill3, .skill4, .skill5 {
+        padding: 20px !important;
+    }
+
+    .learn1, .learn2, .learn3 {
         padding: 10px !important;
     }
 
     .document {
-        padding: 0px 20px 0px 40px !important;
-    }
-    .document .cv p, .document .git p {
-        font-size: 20px;
-    }
-    .cv i, .git i{
-        font-size: 40px;
+        padding: 0px !important;
     }
 
-    .photo img {
+    .cv {
+        padding-left: 20px;
+    }
+
+    figure img {
         margin:10px;
         height: auto;
-    }
-    .cv {
-        padding-right:20px;
-    }
-    .can {
-        display:contents;
-    }
-
-    .learning {
-        flex-basis: 50%;
+        width:300px;
     }
 
     .cards {
@@ -221,7 +235,4 @@
         font-size: 25px;
     }
 
-    .github i {
-        font-size: 1em;
-    }
 }

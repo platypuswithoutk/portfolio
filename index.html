@@ -15,7 +15,7 @@
     <section class="header">
         <div class="home">
             <div class="home-text">
-                <h2><span>R</span>oksana <span>D</span>zioba</h2>
+                <h1><span>R</span>oksana <span>D</span>zioba</h1>
                 <h4> front-end developer</h4>
                 <a href="#portfolio">
                     <button class="btn"><b>Check my work</b></button>
@@ -24,23 +24,21 @@
             </div>
         </div>
 
-        <nav class="main-nav">
+        <div id="navbar">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     </section>
-
-    
 
     <div class="main-container">
         <div class="section-about" id="about">
-            <div class="photo">
+            <figure>
                 <img src="img/small_jo.jpg" width="500" height="500">
-            </div>
+            </figure>
           
             <div class="about">
                 <p><span><b>Hello!</b></span><br>I'm Roksana and I'm beginner Frontend Developer from Cracow. I am ambitious and diligent person who likes people and teamworking.<br><br> I don't have much experience in programming but I have ability to learn fast and I never hesitate to ask questions when my knowledge is not enough. In my future work I would like to have resourceful and knowledge sharing team. </p>
@@ -67,91 +65,53 @@
         <div class="skills-text">
             <h3><b>My skills</b></h3>
         </div>
-
+    
         <div class="can">
             <div class="skill1">
-                <i class="fab fa-html5"></i>
                 <p>HTML 5</p>
-                <div class="stars">
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                </div>
-            </div>
+                <div class="stars"></div>
+            </div>  
 
             <div class="skill2">
-                <i class="fab fa-css3-alt"></i>
                 <P>CSS3</P>
-                <div class="stars">
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    </div>
+                <div class="stars"></div>
             </div>
-
+    
             <div class="skill3">
-                <i class="fab fa-js"></i>
                 <p>JavaScript</p>
-                <div class="stars">
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                </div>
+                <div class="stars" id="change-star"></div>
             </div>
-
+    
             <div class="skill4">
-                <i class="fab fa-bootstrap"></i>
                 <p>Bootstrap</p>
-                <div class="stars">
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                </div>
+                <div class="stars" ></div>
             </div>
-
+    
             <div class="skill5">
-                <i class="fab fa-git"></i>
                 <p>GIT</p>
-                <div class="stars">
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="fas fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                    <div class="star"><i class="far fa-star"></i></div>
-                </div>
+                <div class="stars"></div>
             </div>
         </div>
-
+    
         <div class="learn">
             <div class="skill-text">
                 <h3><b>I'm learning</b></h3>
             </div>
-
-        <div class="learning">
-            <div class="learn1">
-                <i class="fab fa-wordpress"></i>
-                <p>WordPress</p>
-            </div>
-
-            <div class="learn2">
-                <i class="fab fa-sass"></i>
-                <p>Sass</p>
-            </div>
-
-            <div class="learn3">
-                <i class="fab fa-react"></i>
-                <p>ReactJS</p>
+    
+            <div class="learning">
+                <div class="learn1">
+                    <p>WordPress</p>
+                </div>
+    
+                <div class="learn2">
+                    <p>Sass</p>
+                </div>
+    
+                <div class="learn3">
+                    <p>ReactJS</p>
+                </div>
             </div>
         </div>
-       </div>
     </div>
 
     <section id="portfolio" class="portfolio">
@@ -160,11 +120,10 @@
                 <a href="https://platypuswithoutk.github.io/bootstrap-project/" target="_blank">
                 <img src="./img/bootstrap-project.jpg" alt="Avatar" width="500" height="300" ></a>
                 <div class="container">
-                    <h4><b>alpine climbing club</b></h4>
+                    <h4><b>Alpine climbing club</b></h4>
                     <p>An imaginary full responsive climbing club site. I used framework Bootstrap. </p>
                     <div class="github">
-                        <a href="https://github.com/platypuswithoutk/bootstrap-project" target="_blank">Check the code
-                        <i class="fab fa-github-square"></i></a>
+                        <a href="https://github.com/platypuswithoutk/bootstrap-project" target="_blank"><p>Check the code</p>
                     </div>
                 </div>
               </div>
@@ -174,10 +133,9 @@
                     <img src="img/calc.png" alt="Avatar" width="500" height="300" ></a>
                     <div class="container">
                         <h4><b>Calculator</b></h4>
-                        <p>Very simple calculator with only basic functions. The calculator was written in JS.</p>
+                        <p>Simple calculator with only basic functions. The calculator was written in JS.</p>
                     <div class="github">
-                        <a href="https://github.com/platypuswithoutk/calculatorApp" target="_blank">Check the code
-                        <i class="fab fa-github-square"></i></a>
+                        <a href="https://github.com/platypuswithoutk/calculatorApp" target="_blank"><p>Check the code</p>
                       </div>
                 </div>
               </div>
@@ -208,5 +166,7 @@
     <footer>
         <p>&copy 2020 Roksana Dzioba</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
