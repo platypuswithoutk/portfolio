@@ -158,6 +158,10 @@
         justify-content: center    
     }
 
+    .document {
+        padding: 0px !important;
+    }
+
      .learn1, .learn2, .learn3 {
         padding: 30px !important;
         
