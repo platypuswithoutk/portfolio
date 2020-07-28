@@ -33,11 +33,6 @@
         font-size: 25px;
     }
 
-    .document {
-        padding: 0px 40px 0px 70px !important;
-        margin-top: 50px !important;
-    }
-
     .cv, .git {
         margin: 10px !important;
     }
@@ -156,10 +151,6 @@
         margin: 0px 10px 0px 10px !important;
         display: flex;
         justify-content: center    
-    }
-
-    .document {
-        padding: 0px !important;
     }
 
      .learn1, .learn2, .learn3 {
