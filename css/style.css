@@ -160,6 +160,20 @@ figure img {
     box-shadow: 0 0 0 3px rgb(85, 17, 17);
 }
 
+#responsive {
+    background-color: white; 
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 0 0 3px rgb(85, 17, 17);
+    color: rgb(114, 83, 83);
+    margin: -8px;
+}
+
+#skill-responsive {
+    padding:0;
+    width: 49px;
+}
+
 .can p, .learning p {
   margin-top: 10px;
   margin-bottom: 0;
@@ -190,42 +204,6 @@ figure img {
 
 .skill5:before {
     content: "\f1d3"
-}
-
-.stars:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f005\f005";
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 900;
-    color:darkgoldenrod;
-}
-
-.stars:after {
-  font-family: "Font Awesome 5 Free";
-    content: "\f005\f005\f005";
-    display: inline-block;
-    vertical-align: middle;
-    color: rgb(85, 17, 17);
-    margin: -3px;
-}
- 
-#change-star:before {
-  font-family: "Font Awesome 5 Free";
-    content: "\f005";
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 900;
-    color:darkgoldenrod;
-}
-
-#change-star:after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f005\f005\f005\f005";
-    display: inline-block;
-    vertical-align: middle;
-    color: rgb(85, 17, 17);
-    margin: -1px;
 }
 
 .skills {
