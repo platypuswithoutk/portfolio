@@ -27,7 +27,7 @@ body {
     padding: 10px;
     cursor: pointer; 
     transition: all 0.4s;
-    margin-bottom: 51px;
+    margin: 0 20px 51px 20px;
 }
 
 .btn:hover {
@@ -52,6 +52,10 @@ h1 {
 
 span {
     color: rgb(85, 17, 17);
+}
+
+.flag {
+    padding-bottom: 50px;
 }
 
 .main-container {
