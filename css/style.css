@@ -28,6 +28,7 @@ body {
     cursor: pointer; 
     transition: all 0.4s;
     margin: 0 20px 51px 20px;
+    font-weight: bold;
 }
 
 .btn:hover {
