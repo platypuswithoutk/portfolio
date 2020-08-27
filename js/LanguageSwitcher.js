@@ -30,9 +30,9 @@ function translateToPolish() {
     hi.textContent = 'Cześć!'
     hi.style.fontWeight = "900";
 
-    about.innerHTML = "Nazywam się Roksana Dzioba, jestem początkującym frontend developerem i aktualnie mieszkam w Krakowie. W swojej pracy staram się budować przejrzyste, intuicyjne oraz funckjonalne strony internetowe i aplikacje w oparciu o nowoczesne technologie." 
-    future.innerHTML = "Obecnie poszukuje stażu bądź pracy jako Junior Frontend Developer. Chętnie wezmę udział w projektach typu open-source, szczególnie w JavaScript."
-    github.innerHTML = "Zapraszam równiez do zapoznania się z moimi projektami na Githubie:"
+    about.innerHTML = "Nazywam się Roksana Dzioba i mieszkam w Krakowie. Od około 8 miesięcy uczę się budować przejrzyste, intuicyjne i funckjonalne strony internetowe oraz aplikacje. Staram się ciągle rozwijać swoje umiejętności oraz doszkalać - w tym momencie uczę się Reacta oraz realizuje własne projekty w JS."
+    future.innerHTML = "Aktualnie poszukuje pracy bądź stażu jako Frontend Developer na terenie Krakowa lub Śląska. Bardzo chętnie wezmę również udział w projektach open source."
+    github.innerHTML = "Zapraszam do odwiedzenia mojego Githuba:"
 
     skillText.innerHTML = "W swojej pracy korzystam z:"
     skillText.style.fontWeight = "900";
