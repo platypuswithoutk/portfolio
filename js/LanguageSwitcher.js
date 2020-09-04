@@ -31,7 +31,7 @@ function translateToPolish() {
     hi.style.fontWeight = "900";
 
     about.innerHTML = "Nazywam się Roksana Dzioba i mieszkam w Krakowie. Od około 8 miesięcy uczę się budować przejrzyste, intuicyjne i funckjonalne strony internetowe oraz aplikacje. Staram się ciągle rozwijać swoje umiejętności oraz doszkalać - w tym momencie uczę się Reacta oraz realizuje własne projekty w JS."
-    future.innerHTML = "Aktualnie poszukuje pracy bądź stażu jako Frontend Developer na terenie Krakowa lub Śląska. Bardzo chętnie wezmę również udział w projektach open source."
+    future.innerHTML = "Aktualnie poszukuję pracy bądź stażu jako Frontend Developer na terenie Krakowa lub Śląska. Bardzo chętnie wezmę również udział w projektach open source."
     github.innerHTML = "Zapraszam do odwiedzenia mojego Githuba:"
 
     skillText.innerHTML = "W swojej pracy korzystam z:"
