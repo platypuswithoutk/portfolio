@@ -1,9 +1,9 @@
 # Portfolio
 ### My personal portfolio website contains my recently projects
 
-####DEMO: [https://platypuswithoutk.github.io/portfolio]
+DEMO: [https://platypuswithoutk.github.io/portfolio]
 
-####Technologies used:
+Technologies used:
 *HTML, 
 *CSS, 
 *JavaScript, 
