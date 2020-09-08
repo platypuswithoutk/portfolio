@@ -18,9 +18,17 @@ function translateToPolish() {
     let about = document.getElementById('aboutMe');
     let future = document.getElementById('aboutFuture');
     let github = document.getElementById('aboutGithub');
-    let skillText = document.getElementById('skillText');
-    let learnText = document.getElementById('learnText');
-    let contactForm = document.getElementById('contactForm');
+    let skillText = $('#skillText');
+    let learnText = $('#learnText');
+    let contactForm = $('#contactForm');
+    let bootstrapDesc = document.getElementById('bootsrtap-description');
+    let bootrsapCard = document.getElementById('bootstrap');
+    let restaurantCard = $('#lambda-card');
+    let restaurantDesc = $('#lambda-desc');
+    let memoryCard = $('#memory-card');
+    let memoryDesc = $('#memory-desc');
+    let weatherCard = $('#weather-card');
+    let weatherDesc = $('#weather-desc');
 
     navAbout.innerHTML = 'O mnie';
     navSkills.innerHTML = 'Umiejętności'
@@ -34,19 +42,31 @@ function translateToPolish() {
     future.innerHTML = "Aktualnie poszukuję pracy bądź stażu jako Frontend Developer na terenie Krakowa lub Śląska. Bardzo chętnie wezmę również udział w projektach open source."
     github.innerHTML = "Zapraszam do odwiedzenia mojego Githuba:"
 
-    skillText.innerHTML = "W swojej pracy korzystam z:"
-    skillText.style.fontWeight = "900";
+    $(skillText).html('W swoich projektach korzystam z:');
+    $(learnText).html('Aktualnie uczę się:');
+    $(contactForm).html('Bądźmy w kontakcie');
+  
+    bootstrapDesc.innerHTML = 'Responsywna strona wysokogórskiego klubu wspinaczkowego. Przy tworzeniu użyłam biblioteki Bootstrap.'
+    bootrsapCard.innerHTML = 'Klub wspinaczkowy'
 
-    learnText.innerHTML = "Aktualnie uczę się:";
-    learnText.style.fontWeight = "900";
+    $(weatherCard).html('Aplikacja pogodowa');
+    $(weatherDesc).html('Responsywana aplikacja pokazująca aktualną pogodę w wybranych miastach. Wykorzystałam APi udostępnione na stronie OperWeatherMap.org. ')
 
-    contactForm.innerHTML = "Bądźmy w kontakcie"
-    contactForm.style.fontWeight = "900";
+    $(memoryCard).html('Gra Memory');
+    $(memoryDesc).html('Prosta gra polegająca na odnalezieniu wszystkich pasujących do siebie kart na których widnieją symbole frontendowych technologii.')
+
+    $(restaurantCard).html('Restauracja Lambda');
+    $(restaurantDesc).html('Projekt responsywnej strony restauracji zakodowany w ramach zadania podczas Rooling Scopes School')
 
     document.getElementsByName('name')[0].placeholder='Twoje imię';
     document.getElementsByName('_replyto')[0].placeholder='Twój adres e-mail';
     document.getElementsByName('message')[0].placeholder='Twoje wiadomość';
     document.getElementsByName('send')[0].value='Wyślij wiadomość';
+
+    $('h4').css('font-weight', 'bold');
+    $('h3').css('font-weight', '900')
+
+
 }
 
 
