@@ -7,6 +7,7 @@ Technologies used:
 * HTML, 
 * CSS, 
 * JavaScript, 
+* jQuery, 
 * RWD, 
 * WEB API, 
 * CSS library: Bootstrap,
