@@ -235,13 +235,22 @@
     }
 
     .container p {
-        font-size: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
     }
 
     .container h4 {
         font-size: 25px;
     }
 
+    #code, #live {
+        font-size: 14px;
+    }
+
+    .technologies p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
 } 
 
 
