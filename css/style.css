@@ -169,16 +169,35 @@ figure img {
     box-shadow: 0 0 0 3px rgb(85, 17, 17);
 }
 
+#vsc img, #jQuery img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
 
-
-#responsive{
+#responsive, #vsc, #jQuery{
     background-color: white; 
     border-radius: 50%;
     padding: 20px;
     box-shadow: 0 0 0 3px rgb(85, 17, 17);
     color: rgb(114, 83, 83);
     margin: -8px;
+    margin-left:2px;
+    margin-right:2px;
 }
+
+#vsc img {
+    width: 50px;
+}
+
+#jQuery img {
+    width: 60px;
+}
+
+#jQuery  {
+    padding: 14px;
+}
+
 
 #skill-responsive {
     padding:0;

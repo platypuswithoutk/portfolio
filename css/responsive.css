@@ -48,8 +48,8 @@
         justify-content: center;
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
-        padding: 20px !important;
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8 {
+        padding: 30px !important;
     }
 
     #contact form {
@@ -96,7 +96,7 @@
         justify-content: center;
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8 {
         padding: 30px !important;
     }
 }
@@ -118,6 +118,10 @@
     figure img {
         width: 350px;
         height:350px;
+    }
+
+    #vsc img, #jQuery img {
+        height: auto;
     }
 
     #skill-responsive {
@@ -155,7 +159,7 @@
         
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8 {
         padding: 30px !important;
     }
 
@@ -195,7 +199,7 @@
         padding-top: 10px !important;
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8 {
         padding: 20px !important;
     }
 
@@ -224,6 +228,11 @@
         margin:10px;
         height: auto;
         width:300px;
+    }
+
+    #vsc img, #jQuery img {
+        height: auto;
+        margin:0;
     }
 
     #skill-responsive {
