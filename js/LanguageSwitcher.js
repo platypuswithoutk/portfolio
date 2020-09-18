@@ -29,6 +29,8 @@ function translateToPolish() {
     let memoryDesc = $('#memory-desc');
     let weatherCard = $('#weather-card');
     let weatherDesc = $('#weather-desc');
+    let reactDesc = $('#react-desc')
+    let reactCard = $('#react-card')
 
     $(navAbout).html('O mnie');
     $(navSkills).html('Umiejętności');
@@ -48,6 +50,9 @@ function translateToPolish() {
   
     $(bootstrapDesc).html('Responsywna strona wysokogórskiego klubu wspinaczkowego. Przy tworzeniu użyłam biblioteki Bootstrap.');
     $(bootrsapCard).html('Klub wspinaczkowy');
+
+    $(reactCard).html('Quizz wiedzy o Reakcie')
+    $(reactDesc).html('Quizz wiedzy zawierający 10 pytań z zakresu React & React Hooks. Aplikacja została napisana przy użyciu Hooków.')
 
     $(weatherCard).html('Aplikacja pogodowa');
     $(weatherDesc).html('Responsywana aplikacja pokazująca aktualną pogodę w wybranych miastach. Wykorzystałam APi udostępnione na stronie OperWeatherMap.org. ')
