@@ -40,8 +40,8 @@ function translateToPolish() {
     $(hi).html('Cześć!');
     $(hi).css('font-weight', '900');
 
-    $(about).html('Nazywam się Roksana Dzioba i mieszkam w Krakowie. Od około 8 miesięcy uczę się budować przejrzyste, intuicyjne i funkcjonalne strony internetowe oraz aplikacje. Staram się ciągle rozwijać swoje umiejętności oraz doszkalać - w tym momencie uczę się Reacta oraz realizuje własne projekty w JS.');
-    $(future).html('Aktualnie poszukuję pracy bądź stażu jako Frontend Developer na terenie Krakowa lub Śląska. Bardzo chętnie wezmę również udział w projektach open source.')
+    $(about).html('Nazywam się Roksana Dzioba i mieszkam w Krakowie. Od około 10 miesięcy uczę się budować przejrzyste, intuicyjne i funkcjonalne strony internetowe oraz aplikacje. Staram się ciągle rozwijać swoje umiejętności oraz doszkalać - w tym momencie uczę się Reacta oraz realizuje własne projekty w JS.');
+    $(future).html('Aktualnie poszukuję pracy bądź stażu jako Frontend Developer. Bardzo chętnie wezmę również udział w projektach open source.')
     $(github).html('Zapraszam do odwiedzenia mojego Githuba:');
 
     $(skillText).html('W swoich projektach korzystam z:');
