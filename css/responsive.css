@@ -1,3 +1,13 @@
+ @media (max-width: 1024px) {
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .skill9 {
+        padding: 20px;
+    }
+
+    .can {
+        justify-content: center;
+    }
+ }
+ 
  @media (max-width: 982px) {
 
      .about {
@@ -48,7 +58,7 @@
         justify-content: center;
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8 {
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .skill9 {
         padding: 30px !important;
     }
 
@@ -128,6 +138,11 @@
         height: 48px;
     }
 
+    #learn-item img {
+        height: 47px;
+        width: 54px;
+    }
+
     .about {
         padding: 10px !important;
     }
@@ -182,8 +197,6 @@
     }
 }
 
-
-
 @media (max-width: 360px) {
 
     h1 {
@@ -212,8 +225,13 @@
         height: 53px;
     }
 
+    #learn-item img {
+        height: 37px;
+        width: 37px;
+    }
+
     .learn1, .learn2, .learn3 {
-        padding: 10px !important;
+        padding: 20px !important;
     }
 
     .document {
