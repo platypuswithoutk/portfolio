@@ -175,7 +175,7 @@ figure img {
     padding: 0px;
 }
 
-#responsive, #vsc, #jQuery, #learn-item {
+#responsive, #vsc, #jQuery, .learn-item {
     background-color: white; 
     border-radius: 50%;
     padding: 20px;
@@ -186,7 +186,7 @@ figure img {
     margin-right:2px;
 }
 
-#learn-item img {
+.learn-item img {
     width: 48px;
     padding: 0;
 }
@@ -263,7 +263,7 @@ h3 {
   color:rgb(85, 17, 17);
 }
 
-.learn1, .learn2, .learn3 {
+.learn1, .learn2, .learn3, .learn4, .learn5 {
   padding: 30px;   
 }
 

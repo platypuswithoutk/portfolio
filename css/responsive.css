@@ -1,6 +1,6 @@
  @media (max-width: 1024px) {
     .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .skill9 {
-        padding: 20px;
+        padding: 30px;
     }
 
     .can {
@@ -58,10 +58,6 @@
         justify-content: center;
     }
 
-    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .skill9 {
-        padding: 30px !important;
-    }
-
     #contact form {
         width:70%;
     }
@@ -76,7 +72,7 @@
 @media (max-width: 638px) {
 
 
-    .learn1, .learn2, .learn3 {
+    .learn1, .learn2, .learn3, .learn4, .learn5 {
         padding: 15px;   
       }
 
@@ -138,7 +134,7 @@
         height: 48px;
     }
 
-    #learn-item img {
+    .learn-item img {
         height: 47px;
         width: 54px;
     }
@@ -169,7 +165,7 @@
         justify-content: center    
     }
 
-     .learn1, .learn2, .learn3 {
+     .learn1, .learn2, .learn3, .learn4, .learn5 {
         padding: 30px !important;
         
     }
@@ -225,12 +221,12 @@
         height: 53px;
     }
 
-    #learn-item img {
+    .learn-item img {
         height: 37px;
         width: 37px;
     }
 
-    .learn1, .learn2, .learn3 {
+    .learn1, .learn2, .learn3, .learn4, .learn5 {
         padding: 20px !important;
     }
 
