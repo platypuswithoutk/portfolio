@@ -13,4 +13,4 @@ Technologies used:
 * CSS library: Bootstrap,
 * tools: GIT, PerfectPixel extension
 
-![portfolio-layout full screen](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-main.png)
+![portfolio-layout full screen](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-layout.png)
