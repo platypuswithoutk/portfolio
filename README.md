@@ -20,4 +20,5 @@ Technologies used in this project:
 
 
 RWD view layout 375px 
-![portfolio-layout tablet](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-layout-375px.png)
+
+![portfolio-layout phone](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-layout-375px.png)
