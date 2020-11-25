@@ -29,8 +29,10 @@ function translateToPolish() {
     let memoryDesc = $('#memory-desc');
     let weatherCard = $('#weather-card');
     let weatherDesc = $('#weather-desc');
-    let reactDesc = $('#react-desc')
-    let reactCard = $('#react-card')
+    let reactDesc = $('#react-desc');
+    let reactCard = $('#react-card');
+    let memeDesc = $('#meme-desc');
+    let memeCard = $('#meme-card');
 
     $(navAbout).html('O mnie');
     $(navSkills).html('Umiejętności');
@@ -50,6 +52,9 @@ function translateToPolish() {
   
     $(bootstrapDesc).html('Responsywna strona wysokogórskiego klubu wspinaczkowego. Przy tworzeniu użyłam biblioteki Bootstrap.');
     $(bootrsapCard).html('Klub wspinaczkowy');
+
+    $(memeCard).html('Generator memów');
+    $(memeDesc).html('Prosty generator memów napisany w Reakcie. Umożliwia on stworzenie własnego mema oraz pobranie go na dysk.')
 
     $(reactCard).html('Quizz wiedzy o Reakcie')
     $(reactDesc).html('Quizz wiedzy zawierający 10 pytań z zakresu React & React Hooks. Aplikacja została napisana przy użyciu Hooków.')
