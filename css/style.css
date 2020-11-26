@@ -126,6 +126,11 @@ figure {
     margin: -20px;
 }
 
+#vsc, #jQuery, #responsive {
+    width: 89px;
+    height: 89px;
+}
+
 .about {
     flex-basis: 49%;
     font-size: 20px;
@@ -184,6 +189,11 @@ figure img {
     margin: -8px;
     margin-left:2px;
     margin-right:2px;
+}
+
+.learn-item {
+    width: 94px;
+    height: 89px;
 }
 
 .learn-item img {
