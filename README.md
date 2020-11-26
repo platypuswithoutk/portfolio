@@ -19,6 +19,6 @@ Technologies used in this project:
 ![portfolio-layout full screen](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-layout.png)
 
 
-RWD view layout 375px 
+RWD view layout 425px 
 
 ![portfolio-layout phone](https://github.com/platypuswithoutk/portfolio/blob/master/img/portfolio-layout-375px.png)
