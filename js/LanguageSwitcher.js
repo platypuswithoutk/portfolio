@@ -11,9 +11,11 @@ initTranslation();
 
 function translateToPolish() {
     let button = $('.btn');
-    let navAbout = $('#about');
-    let navSkills = $('#skills');
-    let navContact = $('#kontakt');
+    //let navAbout = $('#about');
+    //let navSkills = $('#skills');
+    let navContact = $('#nav-kontakt');
+    let navAbout = $('#nav-about');
+    let navSkills = $('#nav-skills')
     let hi = $('#hi');
     let about = $('#aboutMe');
     let future = $('#aboutFuture');
